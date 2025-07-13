@@ -150,3 +150,5 @@ func (i *Interceptor) defineLogLevelByStatusCode(statusCode int) slog.Level {
 
 	return logLevel
 }
+
+var _ gochaintripper.Interceptor = (*Interceptor)(nil)
