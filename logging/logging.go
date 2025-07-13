@@ -3,7 +3,7 @@ package logging
 import (
 	"bytes"
 	"context"
-	_ "github.com/Alp4ka/gochaintripper"
+	"github.com/Alp4ka/gochaintripper"
 	"io"
 	"log/slog"
 	"net/http"
